@@ -1,7 +1,10 @@
 package com.yeol.market.restdocs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yeol.market.order.application.OrderService;
+import com.yeol.market.point.application.PointService;
 import com.yeol.market.product.application.ProductService;
+import com.yeol.market.product.domain.service.RankingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +34,15 @@ public class RestDocsTestSupporter {
 
     @MockBean
     protected ProductService productService;
+
+    @MockBean
+    protected OrderService orderService;
+
+    @MockBean
+    protected PointService pointService;
+
+    @MockBean
+    protected RankingService rankingService;
 
     @BeforeEach
     void setup(final WebApplicationContext context,

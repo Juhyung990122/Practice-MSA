@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 class ProductControllerTest extends RestDocsTestSupporter {
 
     @Test
-    @DisplayName("메뉴 전체를 불러온다.")
+    @DisplayName("상품 전체를 불러온다.")
     void getAllMenu() throws Exception {
 
         given(productService.getAllProducts())

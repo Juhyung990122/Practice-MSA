@@ -25,7 +25,7 @@ class ProductRepositoryTest {
     private ProductRepository productRepository;
 
     @Test
-    @DisplayName("id를 통해 메뉴를 찾아 반환한다.")
+    @DisplayName("id를 통해 상품을 찾아 반환한다.")
     void findById() {
         final var savedProduct = productRepository.save(당근);
         final var product = productRepository.findById(savedProduct.getId()).get();
@@ -37,7 +37,7 @@ class ProductRepositoryTest {
     }
 
     @Test
-    @DisplayName("메뉴 전체 목록을 반환한다.")
+    @DisplayName("상품 전체 목록을 반환한다.")
     void findAll() {
         productRepository.save(당근);
         productRepository.save(대파);
