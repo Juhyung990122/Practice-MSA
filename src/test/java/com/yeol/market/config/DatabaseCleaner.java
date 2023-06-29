@@ -2,9 +2,9 @@ package com.yeol.market.config;
 
 import java.util.List;
 import java.util.stream.Collectors;
-import javax.persistence.EntityManager;
-import javax.persistence.Table;
-import javax.persistence.metamodel.Type;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Table;
+import jakarta.persistence.metamodel.Type;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 

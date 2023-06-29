@@ -3,11 +3,11 @@ package com.yeol.market.point.domain;
 import com.yeol.market.common.exception.InvalidPriceException;
 import com.yeol.market.common.exception.NotEnoughBalanceException;
 import com.yeol.market.product.domain.Price;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -42,7 +42,7 @@ public class Point {
     }
 
     public void spend(final Long paymentPrice) {
-        final Long paidBalance = balance - paymentPrice;
+        final long paidBalance = balance - paymentPrice;
         if (paidBalance < 0) {
             throw new NotEnoughBalanceException("잔액이 부족합니다.");
         }

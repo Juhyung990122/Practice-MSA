@@ -1,8 +1,8 @@
 package com.yeol.market.product.domain;
 
 import com.yeol.market.common.exception.InvalidStockException;
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

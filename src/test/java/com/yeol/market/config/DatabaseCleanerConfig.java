@@ -1,6 +1,6 @@
 package com.yeol.market.config;
 
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.Bean;

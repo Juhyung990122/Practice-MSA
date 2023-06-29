@@ -1,8 +1,8 @@
 package com.yeol.market.product.domain;
 
 import com.yeol.market.common.exception.InvalidPriceException;
-import javax.persistence.Column;
-import javax.persistence.Embeddable;
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -17,7 +17,7 @@ public class Price {
     public Price(final Long value) {
         validateNotNull(value);
         validatePositive(value);
-        this.value = value.longValue();
+        this.value = value;
     }
 
     private void validatePositive(final Long value) {
