@@ -1,4 +1,4 @@
-package com.yeol.market.common.config;
+package com.coffeeshop.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;

@@ -1,4 +1,4 @@
-package com.yeol.market.common.exception;
+package com.coffeeshop.exception;
 
 import org.springframework.http.HttpStatus;
 

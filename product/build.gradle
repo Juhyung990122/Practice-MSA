@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':common')
+    implementation fileTree(dir: "libs", include:['*.jar'])
+}
+
+bootJar {
+    enabled = true
+    archiveFileName = "application.jar"
+}
