@@ -1,0 +1,13 @@
+dependencies {
+    implementation project(':order')
+    implementation project(':point')
+    implementation project(':product')
+    implementation fileTree(dir: "libs", includes: ['*.jar'])
+
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+bootJar{
+    enabled = true
+    archiveFileName = "application.jar"
+}

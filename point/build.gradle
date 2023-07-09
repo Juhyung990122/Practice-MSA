@@ -4,6 +4,9 @@ dependencies {
 }
 
 bootJar {
+    enabled = false
+}
+
+jar {
     enabled = true
-    archiveFileName = "application.jar"
 }
