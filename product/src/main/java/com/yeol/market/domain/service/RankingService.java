@@ -1,8 +1,8 @@
 package com.yeol.market.domain.service;
 
-import com.yeol.market.common.exception.NotFoundProductExcepton;
-import com.yeol.market.order.domain.repository.OrderRepository;
-import com.yeol.market.product.application.dto.ProductResponse;
+
+import com.coffeeshop.exception.NotFoundProductExcepton;
+import com.yeol.market.application.dto.ProductResponse;
 import com.yeol.market.domain.repository.ProductRepository;
 import java.util.List;
 import java.util.stream.Collectors;

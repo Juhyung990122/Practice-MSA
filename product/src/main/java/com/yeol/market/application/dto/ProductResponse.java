@@ -1,6 +1,7 @@
 package com.yeol.market.application.dto;
 
-import com.yeol.market.product.domain.Product;
+
+import com.yeol.market.domain.Product;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

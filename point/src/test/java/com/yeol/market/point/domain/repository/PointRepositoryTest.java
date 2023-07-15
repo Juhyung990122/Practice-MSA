@@ -1,14 +1,11 @@
 package com.yeol.market.point.domain.repository;
 
-import static com.yeol.market.fixture.PointFixture.멤버1_ID;
-import static com.yeol.market.fixture.PointFixture.멤버2_ID;
-import static com.yeol.market.fixture.PointFixture.멤버3_ID;
-import static com.yeol.market.fixture.PointFixture.포인트_생성;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
-import com.yeol.market.common.config.QuerydslConfig;
-import com.yeol.market.point.domain.Point;
+import com.coffeeshop.config.QuerydslConfig;
+import com.yeol.market.domain.Point;
+import com.yeol.market.domain.repository.PointRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

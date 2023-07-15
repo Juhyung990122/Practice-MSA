@@ -1,8 +1,7 @@
 package com.yeol.market.domain;
 
-import com.yeol.market.common.exception.InvalidPriceException;
-import com.yeol.market.common.exception.NotEnoughBalanceException;
-import com.yeol.market.product.domain.Price;
+import com.coffeeshop.exception.InvalidPriceException;
+import com.coffeeshop.exception.NotEnoughBalanceException;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

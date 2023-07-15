@@ -1,11 +1,11 @@
 package com.yeol.market.application;
 
-import com.yeol.market.common.exception.NotFoundPointException;
-import com.yeol.market.order.application.event.PayEvent;
-import com.yeol.market.point.application.dto.PointChargeDto;
-import com.yeol.market.point.application.dto.PointResponse;
-import com.yeol.market.point.domain.Point;
-import com.yeol.market.point.domain.repository.PointRepository;
+
+import com.coffeeshop.exception.NotFoundPointException;
+import com.yeol.market.application.dto.PointChargeDto;
+import com.yeol.market.application.dto.PointResponse;
+import com.yeol.market.domain.Point;
+import com.yeol.market.domain.repository.PointRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.transaction.event.TransactionPhase;

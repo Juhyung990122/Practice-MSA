@@ -1,5 +1,6 @@
 package com.coffeeshop.exception;
 
+
 import org.springframework.http.HttpStatus;
 
 public abstract class CoffeeShopException extends RuntimeException {

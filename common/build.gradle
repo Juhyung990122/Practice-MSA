@@ -8,4 +8,6 @@ jar {
 
 dependencies {
     testImplementation project(path: ':product')
+    testImplementation project(path: ':order')
+    testImplementation project(path: ':point')
 }

@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: prod
+
+  config:
+    activate:
+      on-profile: prod
+    use-legacy-processing: true
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${MYSQL_ROOT_URL}
+    password: ${MYSQL_USER}
+    username: ${MYSQL_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQL8Dialect

@@ -1,6 +1,6 @@
 package com.yeol.market.domain;
 
-import com.yeol.market.common.exception.InvalidPriceException;
+import com.coffeeshop.exception.InvalidPriceException;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.Getter;
